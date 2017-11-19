@@ -321,7 +321,7 @@ SplayTree* search(char *word, SplayTree *&root)
 int main()
 {
 FILE *file1;
-file1 = fopen("file.txt","r");
+file1 = fopen("insertion_file.txt","r");
 char word[30];
 while(fscanf(file1,"%s",word)==1)
 {
@@ -330,7 +330,7 @@ while(fscanf(file1,"%s",word)==1)
 }
 fclose(file1);
 
-file1 = fopen("file.txt","r");
+file1 = fopen("insertion_file.txt","r");
 char splayword[30];
 int splayflag=1;
 while(fscanf(file1,"%s",splayword)==1)
